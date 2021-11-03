@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextIDjoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Input ID"/>
+
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Input Password"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Input Name"/>
+
+        <EditText
+            android:id="@+id/editTextPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Input PhoneNumber"/>
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Input Addres"/>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="0dp"
+            android:layout_weight="1" android:orientation="vertical">
+            <TextView android:gravity="center" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:textSize="30dp"
+                android:text="적당한 내용의 약관"/>
+            <RadioGroup
+                android:id="@+id/radioGroup" android:orientation="horizontal"
+                android:layout_width="match_parent" android:layout_height="match_parent">
+                <RadioButton
+                    android:layout_weight="1" android:text="동의"
+                    android:id="@+id/rg_btn1" android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:layout_weight="1" android:text="거절"
+                    android:id="@+id/rg_btn2" android:layout_width="0dp"
+                    android:layout_height="wrap_content" /> </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonGaip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join !"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to main"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

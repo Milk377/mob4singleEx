@@ -1,0 +1,4 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/image001"
+        android:width="60dp" android:height="60dp" />
+</layer-list>
